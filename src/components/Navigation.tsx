@@ -20,9 +20,9 @@ export default function Navigation() {
 
           <div className="flex items-center space-x-3">
           <div className="w-40 h-23 flex items-center justify-center">
-    <img 
-      src="/src/img/i1.png" 
-      alt="Logo SUVA" 
+     <img
+      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRj9vGJIvlJn62Vl9TRLfCvQDyMIFa6URUA9w&s"
+      alt="Logo SUVA"
       className="w-full h-full object-contain"
     />
             </div>
