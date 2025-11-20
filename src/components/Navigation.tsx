@@ -1,5 +1,6 @@
 import { Menu, X } from 'lucide-react';
 import { useState } from 'react';
+import logo from "./i1.png";
 
 export default function Navigation() {
   const [isOpen, setIsOpen] = useState(false);
@@ -21,10 +22,10 @@ export default function Navigation() {
           <div className="flex items-center space-x-3">
           <div className="w-40 h-23 flex items-center justify-center">
     <img 
-      src="/src/img/i1.png" 
-      alt="Logo SUVA" 
-      className="w-full h-full object-contain"
-    />
+  src={logo} 
+  alt="Logo SUVA" 
+  className="w-full h-full object-contain"
+/>
             </div>
           </div>
 
